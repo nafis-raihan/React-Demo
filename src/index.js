@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const todoTitle = "Call family";
+const todoTitle = "Learing and Creating App with React.js";
 const date = new Date();
 const currentYear = date.getFullYear();
 
@@ -11,8 +11,8 @@ const currentYear = date.getFullYear();
 ReactDOM.render(
   <div>
  <h1 className="headingStyle">Todo App</h1>
- <h2>{todoTitle} </h2>
-  <p>{currentYear}</p>
+ <h2 className="headingStyle2">{todoTitle} </h2>
+  <p className="headingStyle2">{currentYear}</p>
   </div>, 
   
   

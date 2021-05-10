@@ -3,7 +3,12 @@
     background-color: aqua;
     color: tomato;
     font-size: 4rem;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 
+}
+
+.headingStyle2{
+   
+    text-align: center;
 }
