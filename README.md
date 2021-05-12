@@ -1,4 +1,4 @@
-#This is the first React App Project
+# This is the first React App Project
 
 Learning and trying to make a simple complete React App by myself.
 
