@@ -7,11 +7,12 @@ const date = new Date();
 const currentYear = date.getFullYear();
 
 function Card(props){
+    const {name, address} = props;
 
     return <div className="headingStyle2">
     {/* <h2 className="titleStyle">{todoTitle} </h2> */}
-    <h3 className="nameStyle">{props.name}</h3>
-    <h4 className="addressStyle">{props.address}</h4>
+    <h3 className="nameStyle">{name}</h3>
+    <h4 className="addressStyle">{address}</h4>
      <p className="yearStyle">{currentYear}</p>
     </div>
 }
