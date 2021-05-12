@@ -1,18 +1,18 @@
-const todoTitle = "Learning and Creating App with React.js";
-const todoName = "Md. Nafis Raihan"
-const group = "Bsc. in Computer Science and Engineering"
+//const todoTitle = "Learning and Creating App with React.js";
+const name = "Md. Nafis Raihan"
+const address = "Azimpur"
 const date = new Date();
-const dateName = date.getDate();
-const monthName = date.getMonth();
+// const dateName = date.getDate();
+// const monthName = date.getMonth();
 const currentYear = date.getFullYear();
 
-function Card(){
+function Card(props){
 
     return <div className="headingStyle2">
-    <h2 className="titleStyle">{todoTitle} </h2>
-    <h3 className="nameStyle">{todoName}</h3>
-    <h4 className="groupStyle">{group}</h4>
-     <p className="yearStyle">{dateName + "/" + monthName + "/" + currentYear}</p>
+    {/* <h2 className="titleStyle">{todoTitle} </h2> */}
+    <h3 className="nameStyle">{props.name}</h3>
+    <h4 className="addressStyle">{props.address}</h4>
+     <p className="yearStyle">{currentYear}</p>
     </div>
 }
 
