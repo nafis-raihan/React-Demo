@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .headingStyle{
 
-    background-color: aqua;
-    color: tomato;
+    background-color: crimson;
+    color: cornflowerblue;
     font-size: 4rem;
     padding: 10px;
     text-align: center;
@@ -9,6 +14,12 @@
 }
 
 .headingStyle2{
+    background-color: burlywood;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 390px;
    
     text-align: center;
 }

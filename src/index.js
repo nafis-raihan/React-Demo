@@ -1,19 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'
+// import './index.css'
 
-const todoTitle = "Learing and Creating App with React.js";
+const todoTitle = "Learning and Creating App with React.js";
+const todoName = "Md. Nafis Raihan"
+const group = "Bsc. in Computer Science and Engineering"
 const date = new Date();
 const currentYear = date.getFullYear();
-
-
 
 
 ReactDOM.render(
   <div>
  <h1 className="headingStyle">Todo App</h1>
- <h2 className="headingStyle2">{todoTitle} </h2>
-  <p className="headingStyle2">{currentYear}</p>
+
+ <div className="headingStyle2">
+ <h2 className="titleStyle">{todoTitle} </h2>
+ <h3 className="nameStyle">{todoName}</h3>
+ <h4 className="groupStyle">{group}</h4>
+  <p className="yearStyle">{currentYear}</p>
+ </div>
+ 
   </div>, 
   
   
