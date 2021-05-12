@@ -32,13 +32,14 @@
 
 .nameStyle{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 
 .groupStyle{
     text-align: center;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .yearStyle{
