@@ -19,7 +19,32 @@
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
-    width: 390px;
-   
+    width: 470px;
+    display: inline-block;
+    
+}
+
+.titleStyle{
     text-align: center;
+    margin-bottom: 5px;
+    color: brown;
+}
+
+.nameStyle{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.groupStyle{
+    text-align: center;
+    font-weight: bold;
+}
+
+.yearStyle{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    
 }

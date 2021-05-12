@@ -11,7 +11,7 @@ const currentYear = date.getFullYear();
 
 ReactDOM.render(
   <div>
- <h1 className="headingStyle">Todo App</h1>
+ <h1 className="headingStyle">Demo App</h1>
 
  <div className="headingStyle2">
  <h2 className="titleStyle">{todoTitle} </h2>
